@@ -30,6 +30,8 @@ Our trained model can be downloaded from [here](checkpoints/charades/model-best.
 
 Our trained model can be downloaded from [here](checkpoints/activitynet/model-best.pt)
 
+If you can not reproduce the results with the configuration file, please try to adjust the hyperparameter lambda (e.g. from 0.125 to 0.135) in the configuration file, as in our experiments we found that the model is more sensitive to this hyperparameter.
+
 ## Requiments
 
 - pytorch
